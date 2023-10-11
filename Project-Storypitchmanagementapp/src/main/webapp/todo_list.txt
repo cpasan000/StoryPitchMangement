@@ -1,0 +1,19 @@
+-implement logging and some JUnit testing
+
+-fix bug where draft list shows up on editor page before proposals are at appropriate approval level
+
+-notify author of changes made to a proposal by a senior editor
+
+-for draft_list, make entries dissapear when a draft is accepted, or find a way to properly show/hide the modal buttons
+
+-add a notice to the login screens if the entered login information isn't found in the database
+-add confirmation notices everywhere for submitting things
+
+-in modals, make the "submit" buttons either close the modal or have some sort of confirmation message
+
+-change "Status" messages on story_form_static to be more user-friendly and reflect when a proposal has been deleted
+
+-modify story_form_static.js so that 
+    -locked proposals show as grey
+    -instead of accepted proposals dissapearing, they become green (and move to the bottom of the list?)
+

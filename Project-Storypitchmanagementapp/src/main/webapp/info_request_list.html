@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Info Requests</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="styles/styles.css">
+        <script src="info_request_list.js"></script>
+    </head>
+    <body onload="fillRequests()">
+        <div class="container">
+            <h3>Information Requests</h3>
+            <!-- Change onclick to be a "back" button to editor_main -->
+            <input type="button" value="Back" id="back" onclick="listBack()">
+
+            <table style="width:95%" id="requests" class="table">
+                <tr class="green purple-background">
+                    <th>Author</th>
+                    <th>Title</th>
+                    <th>Type</th>
+                    <th>Status</th>
+                </tr>
+
+                <!-- Filled by fillRequests() -->
+            </table>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    </body>
+</html>
