@@ -7,10 +7,10 @@ import java.sql.SQLException;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.revature.models.Editor;
-import com.revature.models.GEJoin;
-import com.revature.models.Genre;
-import com.revature.utils.JDBCConnection;
+import com.storypitch.models.Editor;
+import com.storypitch.models.GEJoin;
+import com.storypitch.models.Genre;
+import com.storypitch.utils.JDBCConnection;
 
 public class GEJoinRepo implements GenericRepo<GEJoin> {
 	private Connection conn = JDBCConnection.getConnection();
