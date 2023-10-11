@@ -4,7 +4,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import com.storypitch.models.Author;
-import com.atorypitch.repositories.AuthorRepo;
+import com.storypitch.repositories.AuthorRepo;
 
 public class AuthorServices {
 	private static AuthorServices instance;
