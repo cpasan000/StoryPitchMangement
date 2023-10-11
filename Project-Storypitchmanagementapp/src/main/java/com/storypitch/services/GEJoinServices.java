@@ -8,10 +8,10 @@ import java.util.Set;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import com.revature.models.Editor;
-import com.revature.models.GEJoin;
-import com.revature.models.Genre;
-import com.revature.repositories.GEJoinRepo;
+import com.storypitch.models.Editor;
+import com.storypitch.models.GEJoin;
+import com.storypitch.models.Genre;
+import com.storypitch.repositories.GEJoinRepo;
 
 public class GEJoinServices {
 	private static Map<Editor, Set<Genre>> eToG = new HashMap<Editor, Set<Genre>>();
