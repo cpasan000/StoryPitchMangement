@@ -3,8 +3,8 @@ package com.storypitch.services;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import com.revature.models.Editor;
-import com.revature.repositories.EditorRepo;
+import com.storypitch.models.Editor;
+import com.storypitch.repositories.EditorRepo;
 
 public class EditorServices {
 	private static EditorServices instance;
