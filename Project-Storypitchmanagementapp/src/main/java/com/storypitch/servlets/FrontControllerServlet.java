@@ -19,17 +19,17 @@ import com.google.gson.GsonBuilder;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
-import com.revature.models.Author;
-import com.revature.models.Editor;
-import com.revature.models.Genre;
-import com.revature.models.Story;
-import com.revature.models.StoryType;
-import com.revature.services.AuthorServices;
-import com.revature.services.EditorServices;
-import com.revature.services.GEJoinServices;
-import com.revature.services.GenreServices;
-import com.revature.services.StoryServices;
-import com.revature.services.StoryTypeServices;
+import com.storypitch.models.Author;
+import com.storypitch.models.Editor;
+import com.storypitch.models.Genre;
+import com.storypitch.models.Story;
+import com.storypitch.models.StoryType;
+import com.storypitch.services.AuthorServices;
+import com.storypitch.services.EditorServices;
+import com.storypitch.services.GEJoinServices;
+import com.storypitch.services.GenreServices;
+import com.storypitch.services.StoryServices;
+import com.storypitch.services.StoryTypeServices;
 
 public class FrontControllerServlet extends HttpServlet {
 	class LoginInfo {
