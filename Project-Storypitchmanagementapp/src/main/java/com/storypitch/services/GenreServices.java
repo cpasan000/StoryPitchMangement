@@ -6,8 +6,8 @@ import java.util.List;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import com.revature.models.Genre;
-import com.revature.repositories.GenreRepo;
+import com.storypitch.models.Genre;
+import com.storypitch.repositories.GenreRepo;
 
 public class GenreServices {
 	private static GenreServices instance;
