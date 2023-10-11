@@ -3,8 +3,8 @@ package com.storypitch.services;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.revature.models.StoryType;
-import com.revature.repositories.StoryTypeRepo;
+import com.storypitch.models.StoryType;
+import com.storypitch.repositories.StoryTypeRepo;
 
 public class StoryTypeServices {
 	private static StoryTypeServices instance;
