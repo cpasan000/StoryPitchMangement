@@ -7,8 +7,8 @@ import java.sql.SQLException;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.revature.models.Author;
-import com.revature.utils.JDBCConnection;
+import com.storypitch.models.Author;
+import com.storypitch.utils.JDBCConnection;
 
 public class AuthorRepo implements GenericRepo<Author> {
 	private Connection conn = JDBCConnection.getConnection();
