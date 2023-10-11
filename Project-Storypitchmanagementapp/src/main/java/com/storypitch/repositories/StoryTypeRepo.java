@@ -7,8 +7,8 @@ import java.sql.SQLException;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.revature.models.StoryType;
-import com.revature.utils.JDBCConnection;
+import com.storypitch.models.StoryType;
+import com.storypitch.utils.JDBCConnection;
 
 public class StoryTypeRepo implements GenericRepo<StoryType> {
 	private Connection conn = JDBCConnection.getConnection();
