@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration xmlns="http://logging.apache.org/log4j/2.0/config">
     <Properties>
-        <Property name="basePath">../Revature/Projects/Project 1/Project_1/src/main/resources</Property>
+        <Property name="basePath">..Project-Storypitchmanagement/src/main/resources</Property>
     </Properties>
     <Appenders>
         <!-- File Appender -->
-        <File name="FILE" fileName="${basePath}/project_1.log" append="true">
+        <File name="FILE" fileName="${basePath}/Project-Storypitchmanagement.log" append="true">
             <PatternLayout pattern="%-5p | %d{yyyy-MM-dd HH:mm:ss} | [%t] %C{2} (%F:%L) - %m%n" />
         </File>
         <!-- Console Appender -->
