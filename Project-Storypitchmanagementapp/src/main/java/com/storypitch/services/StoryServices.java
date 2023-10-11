@@ -5,10 +5,10 @@ import java.util.List;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import com.revature.models.Author;
-import com.revature.models.Editor;
-import com.revature.models.Story;
-import com.revature.repositories.StoryRepo;
+import com.storypitch.models.Author;
+import com.storypitch.models.Editor;
+import com.storypitch.models.Story;
+import com.storypitch.repositories.StoryRepo;
 
 public class StoryServices {
 	private static StoryServices instance;
