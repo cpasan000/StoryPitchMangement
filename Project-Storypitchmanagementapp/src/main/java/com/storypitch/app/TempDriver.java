@@ -2,19 +2,19 @@ package com.storypitch.app;
 
 import java.sql.Date;
 
-import com.revature.models.Author;
-import com.revature.models.Editor;
-import com.revature.models.GEJoin;
-import com.revature.models.Genre;
-import com.revature.models.Story;
-import com.revature.models.StoryType;
-import com.revature.repositories.AuthorRepo;
-import com.revature.repositories.EditorRepo;
-import com.revature.repositories.GEJoinRepo;
-import com.revature.repositories.GenreRepo;
-import com.revature.repositories.StoryRepo;
-import com.revature.repositories.StoryTypeRepo;
-import com.revature.services.GEJoinServices;
+import com.storypitch.models.Author;
+import com.storypitch.models.Editor;
+import com.storypitch.models.GEJoin;
+import com.storypitch.models.Genre;
+import com.storypitch.models.Story;
+import com.storypitch.models.StoryType;
+import com.storypitch.repositories.AuthorRepo;
+import com.storypitch.repositories.EditorRepo;
+import com.storypitch.repositories.GEJoinRepo;
+import com.storypitch.repositories.GenreRepo;
+import com.storypitch.repositories.StoryRepo;
+import com.storypitch.repositories.StoryTypeRepo;
+import com.storypitch.services.GEJoinServices;
 
 public class TempDriver {
 	private static AuthorRepo ar = new AuthorRepo();
