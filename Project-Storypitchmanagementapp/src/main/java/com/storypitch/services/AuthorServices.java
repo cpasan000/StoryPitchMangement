@@ -3,8 +3,8 @@ package com.storypitch.services;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import com.revature.models.Author;
-import com.revature.repositories.AuthorRepo;
+import com.storypitch.models.Author;
+import com.atorypitch.repositories.AuthorRepo;
 
 public class AuthorServices {
 	private static AuthorServices instance;
