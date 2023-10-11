@@ -8,9 +8,9 @@ import com.google.gson.JsonDeserializer;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParseException;
-import com.revature.repositories.AuthorRepo;
-import com.revature.repositories.GenreRepo;
-import com.revature.repositories.StoryTypeRepo;
+import com.storypitch.repositories.AuthorRepo;
+import com.storypitch.repositories.GenreRepo;
+import com.storypitch.repositories.StoryTypeRepo;
 
 public class Story {
 	private Integer id;
