@@ -7,8 +7,8 @@ import java.sql.SQLException;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.revature.models.Editor;
-import com.revature.utils.JDBCConnection;
+import com.storypitch.models.Editor;
+import com.storypitch.utils.JDBCConnection;
 
 public class EditorRepo implements GenericRepo<Editor> {
 	private Connection conn = JDBCConnection.getConnection();
