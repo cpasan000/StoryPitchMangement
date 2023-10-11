@@ -3,19 +3,7 @@
 The purpose of the Story Pitch Management System (SPMS) is to provide an organized pipeline for story pitches so that more new and creative stories can be given the opportunity to be published.
 Authors are able to submit story pitches, and are limited in the amount of pitches they can have at any time based on a points system. Each type of story (Novel, Novella, Short Story, or Article) has a predetermined point cost, and Authors have a maximum point alotment of 100 points.
 This limitation prevents one Author from overwhelming the system with several story pitches at one time. Any story pitch that an Author does not have sufficient points for is saved for future submission, and is automatically submitted to the approval committees when enough points become available.
-Each genre of story has a committee of Editors that process story pitches for their respective genres. The approval process is as follows:
-- An Author submits a story pitch.
-- The pitch is sent to the Assistant Editor for approval.
-- If the Assistant Editor approves the pitch, the pitch gets sent to an Editor that is NOT a member of the relevant genre committee for approval.
-  - This removes any bias that this second editor might have toward the pitch given their expertise in the genre.
-- If this General Editor approves the story pitch, it is sent to the Senior Editor for final approval.
-- If the Senior Editor approves the pitch, the Author must submit a draft of the story for proofreading.
-- When a draft is submitted for proofreading, it is sent to one or more Editors for approval, based on the type of story.
-  - Novels/Novellas must be approved by the majority of the relavent genre committee.
-  - Short Stories must be approved by the Senior Editor, plus one General Editor from the relavent genre committee.
-  - Articles only need to be approved by the Senior Editor.
-- When a draft has been approved, the pitch is marked as complete and the point cost for the story type is given back to the Author.
-  - If the Author has pitches in the system that are waiting for points, they are automatically submitted based on the new point alotment.
+
   
 ## Technologies Used
 - The back end was written in Java utilizing multiple apis.
