@@ -10,14 +10,14 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import com.revature.models.Author;
-import com.revature.models.Editor;
-import com.revature.models.Genre;
-import com.revature.models.Story;
-import com.revature.models.StoryType;
-import com.revature.services.EditorServices;
-import com.revature.services.GEJoinServices;
-import com.revature.utils.JDBCConnection;
+import com.storypitch.models.Author;
+import com.storypitch.models.Editor;
+import com.storypitch.models.Genre;
+import com.storypitch.models.Story;
+import com.storypitch.models.StoryType;
+import com.storypitch.services.EditorServices;
+import com.storypitch.services.GEJoinServices;
+import com.storypitch.utils.JDBCConnection;
 
 public class StoryRepo implements GenericRepo<Story> {
 	private Connection conn = JDBCConnection.getConnection();
