@@ -1,4 +1,4 @@
-package com.revature.app;
+package com.storypitch.app;
 
 import java.sql.Date;
 
