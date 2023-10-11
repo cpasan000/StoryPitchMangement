@@ -7,9 +7,9 @@ import java.sql.SQLException;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.revature.models.Editor;
-import com.revature.models.Genre;
-import com.revature.utils.JDBCConnection;
+import com.storypitch.models.Editor;
+import com.storypitch.models.Genre;
+import com.storypitch.utils.JDBCConnection;
 
 public class GenreRepo implements GenericRepo<Genre> {
 	private Connection conn = JDBCConnection.getConnection();
